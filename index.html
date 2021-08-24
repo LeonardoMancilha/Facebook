@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook</title>
+</head>
+<body>
+    <div class="container">
+      <div class="intro">
+        <img src="facebook.svg" alt="" class="logo">
+        <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+      </div>
+      <div>
+        <form>
+          <input type="text" id="fname" name="fname" placeholder="Email ou telefone">
+          <input type="password" id="pwd" name="pwd" placeholder="Senha">
+          <button class="entrar">Entrar</button>
+          <a href="#">Esqueceu sua senha?</a>
+          <button class="criar-conta">Criar nova conta</button>
+        </form>
+        <p><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="nav-links">
+         <ul>
+            <li>Português (Brazil)</li>
+            <li><a href="#">English (US)</a></li>
+            <li><a href="#">Español</a></li>
+            <li><a href="#">Français (France)</a></li>
+            <li><a href="#">Italiano</a></li>
+            <li><a href="#">Deutsch</a></li>
+            <li><a href="#">العربية</a></li>
+            <li><a href="#">中文(简体)</a></li>
+            <li><a href="#">हिन्दी</a></li>
+            <li><a href="#">日本語</a></li>
+         </ul>
+         <hr>
+        </div>
+    </footer>
+    <footer id="ano">Facebook © <span id="year"></span></footer>
+    <script>
+        const year = document.getElementById('year');
+        const actualYear = new Date();
+    
+        year.innerHTML = actualYear.getFullYear();
+      </script>
+</body>
+</html>
