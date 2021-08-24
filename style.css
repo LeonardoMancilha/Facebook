@@ -89,7 +89,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
   } 
   
-  
 
   .container {
     padding-top: 130px;
@@ -147,24 +146,24 @@
     display: block;
   }
 
-  .nav-links {
+  .links {
       text-align: right;
       padding: 10px 30px;
       border-bottom-left-radius: 18px;
   }
-  .nav-links ul li {
+  .links ul li {
       list-style: none;
       display: inline-block;
     padding: 10px 25px;
   }
 
-  .nav-links ul li a {
+  .links ul li a {
       color: black;
       text-decoration: none;
       font-size: 16px;
   }
 
-  .nav-links ul li a:hover {
+  .links ul li a:hover {
       text-decoration: underline;
   }
   footer {
@@ -208,7 +207,7 @@
   }
   
   @media (max-width: 900px) {
-    .nav-links ul {
+    .links ul {
         text-align: center;
       }
   }
